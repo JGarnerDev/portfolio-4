@@ -39,6 +39,17 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'restaurant-design.jpg',
+    title: 'The Original Smokehouse - A Mock Restaurant Website',
+    info:
+      "Since my close friend opened a restaurant, they've been planning to increase their presence on the internet - this is a mock website I made to give them inspiration as we plan their own site design!",
+    info2:
+      "Made with HTML, SCSS, JQuery, and BootStrap. Scores highly in best practices and SEO via Google's Lighthouse assessment.",
+    url: 'https://restaurant-design-demo.netlify.app/',
+    repo: 'https://github.com/JGarnerDev/chatterbox-2', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'codepen.jpg',
     title: 'Designs on Codepen',
     info:
