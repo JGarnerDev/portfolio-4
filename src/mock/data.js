@@ -18,10 +18,13 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: '1.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne:
+    "Hey there! My name's Jeff, and I've been a JavaScript web developer for more than a year.",
+  paragraphTwo:
+    'While I have made my share of full stack applications with React and Node, I would say that my strong suits are with front end and design - especially being able to recreate designs with HTML and CSS from a given image.',
+  paragraphThree: 'Take a look at my most current work below, and on CodePen!',
+  resume:
+    'https://www.linkedin.com/in/jgarnerwebdev/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAABp3QKIBaEPIyYYeW_TMY542_NvliNf9Nd4,1603736909200)/', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -57,25 +60,25 @@ export const projectsData = [
     info2:
       "Here's an organized collection of my latest material - either made to replicate designs by eye, or to make entirely new ones!",
     url: 'https://codepen.io/JeffGarner',
-    repo: '', // if no repo, the button will not show up
+    repo: '',
   },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: 'Blog',
-    info:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod voluptatibus necessitatibus omnis delectus sequi quam pariatur officia mollitia repellat deleniti fugiat repellendus fugit, atque quisquam laborum, recusandae eligendi id incidunt?',
-    info2:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam animi, iure eum quidem earum error exercitationem, quisquam sapiente impedit provident nemo veniam assumenda deserunt odio ratione natus dolores enim ut!',
-    url: '',
-    repo: '', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'project.jpg',
+  //   title: 'Blog',
+  //   info:
+  //     'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod voluptatibus necessitatibus omnis delectus sequi quam pariatur officia mollitia repellat deleniti fugiat repellendus fugit, atque quisquam laborum, recusandae eligendi id incidunt?',
+  //   info2:
+  //     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam animi, iure eum quidem earum error exercitationem, quisquam sapiente impedit provident nemo veniam assumenda deserunt odio ratione natus dolores enim ut!',
+  //   url: '',
+  //   repo: '', // if no repo, the button will not show up
+  // },
 ];
 
 // CONTACT DATA
 export const contactData = {
   cta: '',
-  btn: '',
+  btn: 'Send a message!',
   email: 'j.garner200@gmail.com',
 };
 
