@@ -18,8 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: '1.jpg',
-  paragraphOne:
-    "Hey there! My name's Jeff, and I've been a JavaScript web developer for more than a year.",
+  paragraphOne: "Hey there! My name's Jeff, and I've been a JavaScript web developer since 2019!",
   paragraphTwo:
     'While I have made my share of full stack applications with React and Node, I would say that my strong suits are with front end and design - especially being able to recreate designs with HTML and CSS from a given image.',
   paragraphThree: 'Take a look at my most current work below, and on CodePen!',
