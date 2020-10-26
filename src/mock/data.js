@@ -62,17 +62,17 @@ export const projectsData = [
     url: 'https://codepen.io/JeffGarner',
     repo: '',
   },
-  // {
-  //   id: nanoid(),
-  //   img: 'project.jpg',
-  //   title: 'Blog',
-  //   info:
-  //     'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod voluptatibus necessitatibus omnis delectus sequi quam pariatur officia mollitia repellat deleniti fugiat repellendus fugit, atque quisquam laborum, recusandae eligendi id incidunt?',
-  //   info2:
-  //     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam animi, iure eum quidem earum error exercitationem, quisquam sapiente impedit provident nemo veniam assumenda deserunt odio ratione natus dolores enim ut!',
-  //   url: '',
-  //   repo: '', // if no repo, the button will not show up
-  // },
+  {
+    id: nanoid(),
+    img: 'blog.jpg',
+    title: 'JGDevBlog',
+    info:
+      "Given my past in Liberal Arts, I always enjoy talking and writing about programming concepts, projects that I'm working on, and code challenges that I've been given.",
+    info2:
+      "Here's my blog where you can see me approach a variety of subjects and see how I think!",
+    url: 'https://jgdevblog.ca/',
+    repo: '', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
