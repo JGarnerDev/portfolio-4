@@ -30,6 +30,17 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'telephono.jpg',
+    title: 'TelePhono - A Full-stack eCommerce App',
+    info:
+      'Using React and Node, I built both the server and client to make an online store directed at selling phones. Browse products and make a purchase as a user, or manage content as an administrator.',
+    info2:
+      'Includes NoSQL database management, product filtering, password encryption, user authorization, private and administrative routing protection, order confirmation mailing, and more!',
+    url: 'https://telephono.netlify.app/',
+    repo: 'https://github.com/JGarnerDev/telephono-ecommerce', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'chatterbox.jpg',
     title: 'ChatterBox - A Live Chat WebApp',
     info:
