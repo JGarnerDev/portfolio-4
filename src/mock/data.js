@@ -33,11 +33,22 @@ export const projectsData = [
     img: 'telephono.jpg',
     title: 'TelePhono - A Full-stack eCommerce App',
     info:
-      'Using React and Node, I built both the server and client to make an online store directed at selling phones. Browse products and make a purchase as a user, or manage content as an administrator.',
+      'Using React and Node, I designed and built both the server and client to make an online store directed at selling phones. Browse products and make a purchase as a user, or manage content as an administrator.',
     info2:
-      'Includes NoSQL database management, product filtering, password encryption, user authorization, private and administrative routing protection, order confirmation mailing, and more!',
+      'Includes NoSQL database management and schema design, product queries, password encryption, user authorization, private and administrative routing protection, order confirmation mailing, and more!',
     url: 'https://telephono.netlify.app/',
     repo: 'https://github.com/JGarnerDev/telephono-ecommerce', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'jimmy-photography-portfolio.jpg',
+    title: 'Photography Portfolio for Jimmy Karamanis',
+    info:
+      'Using Gatsby.js, GraphQL, and Sanity.io, I designed and implemented a website and headless CMS for Jimmy Karamanis to publish his photography and to advertise himself as a potential photographer.',
+    info2:
+      'I had a great time closely collaborating with him to structure a schedule of deliverable features, researching and implementing a design that he wanted, and creating a website that showed his amazing high-resolution photos quickly and elegantly within a zero-cost plan.',
+    url: 'https://jimmykphotography.netlify.app/',
+    repo: 'https://github.com/JGarnerDev/jimmy-portfolio',
   },
   {
     id: nanoid(),
@@ -66,22 +77,10 @@ export const projectsData = [
     img: 'codepen.jpg',
     title: 'Designs on Codepen',
     info:
-      "While I'm always celebrating when I learn more about servers and databases, front end work was fulfilling and enjoyable since I first wrote code.",
-    info2:
-      "Here's an organized collection of my latest material - either made to replicate designs by eye, or to make entirely new ones!",
+      "When I'm in between projects, I pick up design drafts, functional component concepts, and webapp projects and implement them here with HTML, CSS, and Vanilla JavaScript",
+    info2: '',
     url: 'https://codepen.io/JeffGarner',
     repo: '',
-  },
-  {
-    id: nanoid(),
-    img: 'blog.jpg',
-    title: 'JGDevBlog',
-    info:
-      "Given my past in Liberal Arts, I always enjoy talking and writing about programming concepts, projects that I'm working on, and code challenges that I've been given.",
-    info2:
-      "Here's my blog where you can see me approach a variety of subjects and see how I think!",
-    url: 'https://jgdevblog.ca/',
-    repo: '', // if no repo, the button will not show up
   },
 ];
 
