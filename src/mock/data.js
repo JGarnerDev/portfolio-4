@@ -23,7 +23,7 @@ export const aboutData = {
     'While I have made my share of full stack applications with React and Node, I would say that my strong suits are with front end and design - especially being able to recreate designs with HTML and CSS from a given image.',
   paragraphThree: 'Take a look at my most current work below, and on CodePen!',
   resume:
-    'https://www.linkedin.com/in/jgarnerwebdev/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAABp3QKIBaEPIyYYeW_TMY542_NvliNf9Nd4,1603736909200)/', // if no resume, the button will not show up
+    'https://www.linkedin.com/in/jgarnerwebdev/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAABp3QKIBaEPIyYYeW_TMY542_NvliNf9Nd4,1610034360726)/', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
