@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Front End Web Developer', // e.g: 'Name | Developer'
+  title: 'Jeffrey Garner - Full Stack Web Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my portfolio!', // e.g: Welcome to my website
 };
@@ -18,10 +18,11 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: '1.jpg',
-  paragraphOne: "Hey there! My name's Jeff, and I've been a JavaScript web developer since 2019!",
+  paragraphOne: "Hey there! My name's Jeff, and I've been a web developer since 2019.",
   paragraphTwo:
-    'While I have made my share of full stack applications with React and Node, I would say that my strong suits are with front end and design - especially being able to recreate designs with HTML and CSS from a given image.',
-  paragraphThree: 'Take a look at my most current work below, and on CodePen!',
+    "My journey began after graduating Concordia University's Full Stack Web Development CED program, where I learned how to construct client and servers using React and Node.",
+  paragraphThree:
+    'Ever since, I have been passionate about delivering fantastic web solutions to those who want to bring content and services to the internet, and expanding my knowledge through personal projects. Take a look below!  ',
   resume:
     'https://www.linkedin.com/in/jgarnerwebdev/detail/overlay-view/urn:li:fsd_profileTreasuryMedia:(ACoAABp3QKIBaEPIyYYeW_TMY542_NvliNf9Nd4,1610034360726)/', // if no resume, the button will not show up
 };

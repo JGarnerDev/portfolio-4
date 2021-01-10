@@ -5,7 +5,7 @@ import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
 
-import resume from '../../images/resume.pdf'
+import resume from '../../images/Jeffrey Garner - Resume.pdf'
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
@@ -57,6 +57,7 @@ const About = () => {
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume"
                       href={resume}
+                      download="Jeffrey Garner - Resume"
                     >
                       Resume
                     </a>
